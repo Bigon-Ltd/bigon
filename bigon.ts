@@ -18,7 +18,7 @@ class Tile {
 }
 
 
-const VALUES_PER_DIMENSION = 3;
+const VALUES_PER_DIMENSION = 5;
 
 
 function addDimensionToTiles(smallerTiles: Tile[]): Tile[] {
