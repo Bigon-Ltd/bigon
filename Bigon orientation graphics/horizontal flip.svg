@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="26mm"
+   height="26mm"
+   viewBox="0 0 26 26"
+   version="1.1"
+   id="svg72555"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="horizontal flip.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview72557"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="209mm"
+     inkscape:zoom="6.2217172"
+     inkscape:cx="49.504018"
+     inkscape:cy="62.92475"
+     inkscape:window-width="1682"
+     inkscape:window-height="1111"
+     inkscape:window-x="730"
+     inkscape:window-y="400"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs72552">
+    <linearGradient
+       id="linearGradient133575"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop133573" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient133525"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop133523" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient131515"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop131513" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:36.4842px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.427549"
+       x="2.2373369"
+       y="23.230835"
+       id="text76543"
+       transform="scale(1.0346148,0.9665433)"><tspan
+         sodipodi:role="line"
+         id="tspan76541"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.4842px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB';stroke-width:0.427549"
+         x="2.2373369"
+         y="23.230835" /></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;fill-opacity:1"
+       id="path136772"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="12.858187"
+       sodipodi:cy="36.002922"
+       sodipodi:r1="24.733215"
+       sodipodi:r2="12.61394"
+       sodipodi:arg1="1.4141944"
+       sodipodi:arg2="2.461392"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 16.715644,60.433476 3.0515226,43.936448 -10.228022,27.128301 10.890884,23.543339 32.086938,20.446989 24.632153,40.52898 Z"
+       transform="matrix(0.04810817,-0.28695469,0.30983328,0.04455579,-7.6692651,14.763707)"
+       inkscape:transform-center-x="-1.2442348"
+       inkscape:transform-center-y="-0.085101434" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;fill-opacity:1"
+       id="path136934"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="12.858187"
+       sodipodi:cy="36.002922"
+       sodipodi:r1="24.733215"
+       sodipodi:r2="12.61394"
+       sodipodi:arg1="1.4141944"
+       sodipodi:arg2="2.461392"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 16.715644,60.433476 3.0515226,43.936448 -10.228022,27.128301 10.890884,23.543339 32.086938,20.446989 24.632153,40.52898 Z"
+       transform="matrix(0.27598719,-0.09213285,0.10600306,0.29452543,14.903743,3.5804912)"
+       inkscape:transform-center-x="2.0158436"
+       inkscape:transform-center-y="-0.37993438" />
+  </g>
+</svg>
