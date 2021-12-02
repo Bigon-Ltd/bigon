@@ -69,10 +69,22 @@ class OrientedTile {
         const values = this.tile.data;
         const dimensions = this.orientation.dimensions;
         return {
-            left: values[dimensions[0]],
-            top: values[dimensions[1]],
-            right: values[dimensions[2]],
-            bottom: values[dimensions[3]]
+            left: {
+                dimension: dimensions[0],
+                value: values[dimensions[0]]
+            },
+            top: {
+                dimension: dimensions[1],
+                value: values[dimensions[1]]
+            },
+            right: {
+                dimension: dimensions[2],
+                value: values[dimensions[2]]
+            },
+            bottom: {
+                dimension: dimensions[3],
+                value: values[dimensions[3]]
+            }
         };
     }
 }
