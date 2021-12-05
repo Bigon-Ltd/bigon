@@ -17,18 +17,13 @@ export type PlayersTile = {
 
 function PlayableTile({tile, player, tileIndex}: {tile: OrientedTileProps, tileIndex: number, player: Player}) {
     const dispatch = useAppDispatch();
-    const [{ isDragging, targetIds, dropResult }, drag] = useDrag(() => ({
+    const [{ isDragging }, drag] = useDrag(() => ({
         type: 'PLAY_TILE',
         item: {player, tileIndex} as PlayersTile,
         collect: (monitor) => ({
             isDragging: monitor.isDragging(),
-            targetIds: monitor.getTargetIds(),
-            dropResult: monitor.getDropResult(),
         })
     }))
-    if (targetIds.length) {
-        console.log(targetIds);
-    }
     return (
         <div
             ref={drag}
