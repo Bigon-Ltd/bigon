@@ -1,0 +1,39 @@
+.rack {
+    width: 500px;
+    background: aliceblue;
+    border: 1px solid blue;
+    height: 100px;
+}
+
+.tilePlace {
+  line-height: 68px;
+  width: 68px;
+  height: 68px;
+  padding: 0;
+    position: relative;
+    float: left;
+}
+
+.rotator {
+    position: absolute;;
+    width: 45%;
+    height: 45%;
+}
+
+.rotator:hover {
+    background-image: url('./images/rotate clockwise.svg');
+    background-size: contain;
+}
+
+.flipper {
+    position: absolute;;
+    width: 45%;
+    height: 45%;
+    bottom: 0px;
+    right: 0px;
+}
+
+.flipper:hover {
+    background-image: url('./images/horizontal flip.svg');
+    background-size: contain;
+}
