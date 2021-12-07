@@ -1,2 +1,3 @@
 # bigon
-https://github.com/react-grid-layout/react-grid-layout
+Game system
+Digital version
