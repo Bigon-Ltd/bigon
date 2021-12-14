@@ -1,0 +1,107 @@
+<html>
+<head>
+	<style>
+	.token {
+		width: 150px;
+		height: 150px;
+		float: right;
+		display: inline;
+		margin: 7px;
+		border: 1px solid black;}
+		.number{transform: rotate(-90deg); position: relative; left: 50px; top: 5px; font-size: 4em; }
+		.letter{transform: rotate(-180deg); position: relative; left: -45px; top: -50px; font-size: 4em; }
+		.mayan{transform: rotate(-270deg); position: relative; left: -60px; top: -65px; font-size: 4em; }
+		.shape{ position: relative; left: 50px; top: -17px; font-size: 4em; }
+		.tilev1 {height: 55px; width: 55px;}
+</style>
+
+
+
+
+	</head>
+	<body>
+
+<div style="margin:auto;width:1000px">
+<div id="gc"></div></div>
+<script>
+	/*create deck*/
+	var mayan = ["1", "2", "3", "4", "5"];
+var number = ["1", "2", "3", "4", "5"];
+var letter = ["1", "2", "3", "4", "5"];
+var shape = ["1", "2", "3", "4", "5"]
+var deck = new Array();
+function getDeck()
+{
+	for(var a = 0; a < mayan.length; a++)
+	{
+		for(var b = 0; b < number.length; b++)
+		{
+			for (var c = 0; c < letter.length; c++)
+			{
+				for (var d = 0; d < shape.length; d++)
+				{
+					var card = {Mayan: mayan[a], Number: number[b], Letter: letter[c], Shape: shape[d]};
+				deck.push(card);
+				}
+				
+			}
+		}
+	}
+	return deck;
+}
+getDeck();
+console.log(deck);
+
+/*print deck v1*/
+function printDeck()
+{
+	for (let e = 0; e< deck.length; e++)
+	{
+	 if (e % 24 == 0) {const element = document.getElementById('gc');
+	const pb = document.createElement('div');
+		pb.style = 'break-after:page';
+		element.appendChild(pb);
+	}
+
+		const tile = document.createElement("div");
+		tile.className = 'token';
+		const number = document.createElement('div');
+		number.className = 'number';
+		const numberimg = document.createElement('img');
+		numberimg.className = 'tilev1';
+		numberimg.src = 'bigon_tile_graphics/number/' + deck[e].Number + '.svg';
+		number.appendChild(numberimg);
+		tile.appendChild(number);
+
+		const letter = document.createElement('div');
+		letter.className = 'letter';
+		const letterimg = document.createElement('img');
+		letterimg.className = 'tilev1';
+		letterimg.src = 'bigon_tile_graphics/letter/' + deck[e].Letter + '.svg';
+		letter.appendChild(letterimg);
+		tile.appendChild(letter);
+
+		const shape = document.createElement('div');
+		shape.className = 'shape';
+		const shapeimg = document.createElement('img');
+		shapeimg.className = 'tilev1';
+		shapeimg.src = 'bigon_tile_graphics/shape/' + deck[e].Shape + '.svg';
+		shape.appendChild(shapeimg);
+		tile.appendChild(shape);
+
+		const mayan = document.createElement('div');
+		mayan.className = 'mayan';
+		const mayanimg = document.createElement('img');
+		mayanimg.className = 'tilev1';
+		mayanimg.src = 'bigon_tile_graphics/mayan/' + deck[e].Mayan + '.svg';
+		mayan.appendChild(mayanimg);
+		tile.appendChild(mayan);
+
+		const element = document.getElementById('gc');
+		element.appendChild(tile);
+			}
+}
+printDeck()
+</script>
+</body>
+</html>
