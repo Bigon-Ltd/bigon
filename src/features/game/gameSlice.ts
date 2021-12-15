@@ -108,7 +108,7 @@ export const gameSlice = createSlice({
             state.currentPlayer = 0 as Player;
             state.bag = {tiles: makeTiles()};
             state.racks = [[]];
-            const BOARD_SIZE = 7;
+            const BOARD_SIZE = 9;
             state.board = {
                 size: BOARD_SIZE,
                 rows: makeEmptyRows(BOARD_SIZE)
