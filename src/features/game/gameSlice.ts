@@ -107,7 +107,7 @@ export const gameSlice = createSlice({
         initialise: (state) => {
             state.currentPlayer = 0 as Player;
             state.bag = {tiles: makeTiles()};
-            state.racks = [[], []];
+            state.racks = [[]];
             const BOARD_SIZE = 7;
             state.board = {
                 size: BOARD_SIZE,
@@ -125,9 +125,6 @@ export const gameSlice = createSlice({
                  const rack = state.racks[player];
                  const tile = rack.splice(tileIndex, 1)[0];
                  state.board.rows[boardRow].splice(boardCol, 1, tile);
-                 if (state.currentPlayer !== null) {
-                     state.currentPlayer = (1 - state.currentPlayer) as Player;
-                 }
             } else {
                 console.log('Play not legal')
             }
