@@ -1,7 +1,7 @@
 const NUMBER_OF_DIMENSIONS = 4;
 export type Dimension = 0 | 1 | 2 | 3;
-const NUMBER_OF_VALUES = 5;
-export type DimensionValue = 0 | 1 | 2 | 3 | 4;
+const NUMBER_OF_VALUES = 3;
+export type DimensionValue = 0 | 1 | 2;
 
 
 type ProtoTile = DimensionValue[];
