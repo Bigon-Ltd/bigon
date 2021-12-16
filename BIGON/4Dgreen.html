@@ -1,0 +1,27 @@
+<script>var mayan = ["1", "2", "3", "4", "5"];
+var number = ["1", "2", "3", "4", "5"];
+var letter = ["a", "b", "c", "d", "e"];
+var shape = ["circle","bigon", "triangle","square", "pentagon"]
+var deck = new Array();
+function getDeck()
+{
+	for(var a = 0; a < mayan.length; a++)
+	{
+		for(var b = 0; b < number.length; b++)
+		{
+			for (var c = 0; c < letter.length; c++)
+			{
+				for (var d = 0; d < shape.length; d++)
+				{
+					var card = {Mayan: mayan[a], Number: number[b], Letter: letter[c], Shape: shape[d]};
+				deck.push(card);
+				}
+				
+			}
+		}
+	}
+	return deck;
+}
+getDeck();
+console.log(deck);
+</script>
