@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="26mm"
+   height="26mm"
+   viewBox="0 0 26 26"
+   version="1.1"
+   id="svg72555"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview72557"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="209mm"
+     inkscape:zoom="6.2217172"
+     inkscape:cx="77.550937"
+     inkscape:cy="70.318207"
+     inkscape:window-width="1682"
+     inkscape:window-height="1123"
+     inkscape:window-x="425"
+     inkscape:window-y="576"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs72552" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:36.4842px;line-height:1.25;font-family:sans-serif;fill:#785ef0;fill-opacity:1;stroke:none;stroke-width:0.427549"
+       x="4.5391049"
+       y="24.286781"
+       id="text76543"
+       transform="scale(1.0346148,0.96654331)"><tspan
+         sodipodi:role="line"
+         id="tspan76541"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.4842px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB';stroke-width:0.427549;fill:#785ef0;fill-opacity:1"
+         x="4.5391049"
+         y="24.286781" /></text>
+    <circle
+       id="path129639"
+       cx="16.329897"
+       cy="13.608248"
+       r="2.0412371"
+       style="stroke-width:0.264583;fill:#785ef0;fill-opacity:1" />
+    <circle
+       id="circle129728"
+       cx="10.546392"
+       cy="13.948454"
+       r="2.0412371"
+       style="stroke-width:0.264583;fill:#785ef0;fill-opacity:1"
+       inkscape:transform-center-x="5.443299"
+       inkscape:transform-center-y="0.34020619" />
+  </g>
+</svg>
